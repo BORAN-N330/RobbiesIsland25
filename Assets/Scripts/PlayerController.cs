@@ -74,7 +74,7 @@ public class PlayerController : MonoBehaviour
     }
 
     void MovePlayer() {
-        moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
+        moveDirection = playerMesh.transform.forward * verticalInput + playerMesh.transform.right * horizontalInput;
 
         //no delta time with fixed update
         rb.AddForce(moveDirection.normalized * (speed + (sprinting * sprintModifier)), ForceMode.Force);
