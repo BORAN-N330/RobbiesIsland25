@@ -10,9 +10,16 @@ public class Health : MonoBehaviour
     public Slider slider;
     [SerializeField] Transform Player;
     bool Regain = false;
+
+    //default values
+    //use public to show variables in inspector
+    public float maxHealth = 10f;
+    public float regainAmt = 1;
+
+
     void Start()
     {
-        health = (float)CharacterType;
+        health = maxHealth;
 
         slider.maxValue = health;
         slider.value = health - 1000;
@@ -39,9 +46,9 @@ public class Health : MonoBehaviour
     {
         Regain = true;
 
-        if (health < (float)CharacterType)
+        if (health < maxHealth)
         {
-            health += 200;
+            health += regainAmt;
             Debug.Log("I'm Reviving, YAY");
             yield return new WaitForSeconds(0.5f);
         }
