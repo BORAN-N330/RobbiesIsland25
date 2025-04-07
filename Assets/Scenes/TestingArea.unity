@@ -1811,8 +1811,8 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 128
-  sensX: 100
-  sensY: 100
+  sensX: 1000
+  sensY: 1000
   maxLookAngle: 20
   minLookAngle: -20
 --- !u!4 &390159099196522032
@@ -2629,6 +2629,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 5680756634781129860}
+    - target: {fileID: 4473910469574683428, guid: e7b605aa1edc99141a4c618e42a24a51, type: 3}
+      propertyPath: knockBack
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 4719618310700368052, guid: e7b605aa1edc99141a4c618e42a24a51, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.8

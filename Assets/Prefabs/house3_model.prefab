@@ -64,10 +64,22 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -2005411933653435492, guid: 485671fb379d3a74c9e79067e32d0c94, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ebbd911436bbb9b4798073d0f8e69237, type: 2}
     - target: {fileID: 919132149155446097, guid: 485671fb379d3a74c9e79067e32d0c94, type: 3}
       propertyPath: m_Name
       value: house3_model
       objectReference: {fileID: 0}
+    - target: {fileID: 7124682117990857294, guid: 485671fb379d3a74c9e79067e32d0c94, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 34978c1b6459a514fa1ea6f6abca74ae, type: 2}
+    - target: {fileID: 7202271454713460447, guid: 485671fb379d3a74c9e79067e32d0c94, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3abc2e48208a3dd49af652d2143fe344, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
