@@ -39,6 +39,8 @@ public class PlayerShoot : MonoBehaviour
             if (hitData.collider.tag == "Enemy") {
                 //call enemy's hit function
                 Debug.Log("Hit Enemy");
+
+                hitData.collider.GetComponent<RabidEnemy>().shotByPlayer();
             }
         }
     }
