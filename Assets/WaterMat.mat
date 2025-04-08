@@ -14,8 +14,8 @@ Material:
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 1
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses:
@@ -40,18 +40,18 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Specular_Density: 3.83
-    - _Specular_Speed: 1
-    - _Specular_Thickness: 1.5
-    - _WaterDepth: 0.5
-    - _Wave_Amptitude: 0.75
-    - _Wave_Frequency: 1
+    - _Specular_Density: 50
+    - _Specular_Speed: 5
+    - _Specular_Thickness: 10
+    - _WaterDepth: 1
+    - _Wave_Amptitude: 1
+    - _Wave_Frequency: 1.25
     - _Wave_Speed: 1
     m_Colors:
-    - _DeepColor: {r: 0.23829654, g: 0.4015434, b: 0.8018868, a: 0}
+    - _DeepColor: {r: 0.18111429, g: 0.45916042, b: 0.6981132, a: 0}
     - _ShadowColor: {r: 0.14751692, g: 0.5772843, b: 0.8018868, a: 0}
-    - _ShallowColor: {r: 0.1477839, g: 0.508662, b: 0.764151, a: 0}
-    - _Specular_Color: {r: 0.27394086, g: 0.4927305, b: 0.7169812, a: 0}
+    - _ShallowColor: {r: 0.20478818, g: 0.3135979, b: 0.735849, a: 0}
+    - _Specular_Color: {r: 0.13336597, g: 0.32341582, b: 0.764151, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &4232047073090046928
