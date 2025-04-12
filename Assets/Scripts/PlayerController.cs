@@ -96,11 +96,16 @@ public class PlayerController : MonoBehaviour
     }
 
     void ApplyDrag() {
-        if (grounded == true) {
-            rb.linearDamping = groundDrag;
-        } else {
-            rb.linearDamping = 0;
-        }
+
+        //always apply drag!
+
+        rb.linearDamping = groundDrag;
+
+        //if (grounded == true) {
+        //    rb.linearDamping = groundDrag;
+        //} else {
+        //    rb.linearDamping = 0;
+        //}
     }
 
     void RotateCamera() {
