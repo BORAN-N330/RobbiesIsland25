@@ -5049,8 +5049,8 @@ GameObject:
   - component: {fileID: 3895013874831700168}
   - component: {fileID: 4527518660594524533}
   - component: {fileID: 4473910469574683428}
-  - component: {fileID: 6807829385591401906}
   - component: {fileID: 3573174667711452464}
+  - component: {fileID: 6807829385591401906}
   - component: {fileID: 2305139185070175743}
   m_Layer: 0
   m_Name: RabidEnemy
@@ -5140,6 +5140,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 2
   knockBack: 5
+--- !u!114 &3573174667711452464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3477441446375655466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: becc96fe64a9fa64c9dffad117919da1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  playerDistanceThreshold: 20
+  wanderLimits: {x: 5, y: 5}
 --- !u!195 &6807829385591401906
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -5162,19 +5177,6 @@ NavMeshAgent:
   m_BaseOffset: 1.05
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &3573174667711452464
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3477441446375655466}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: becc96fe64a9fa64c9dffad117919da1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
 --- !u!114 &2305139185070175743
 MonoBehaviour:
   m_ObjectHideFlags: 0
