@@ -1941,8 +1941,9 @@ MonoBehaviour:
   targetFollow: {fileID: 7868621378963032708}
   playerMesh: {fileID: 1980503301922828541}
   armPivot: {fileID: 7960912268673595303}
-  speed: 200
+  speed: 50
   sprintModifier: 15
+  fallingGravity: -1
   groundDrag: 7
   playerHeight: 2
   whatIsGround:
@@ -2838,7 +2839,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6883437396469312952}
   serializedVersion: 4
-  m_Mass: 5
+  m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
