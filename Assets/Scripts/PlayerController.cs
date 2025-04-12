@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     public GameObject targetFollow; //this is for the cinemachine
     public GameObject playerMesh; //player's body
     public GameObject armPivot; //players arm
+    public GameObject lArmPivot; //left arm
 
     Rigidbody rb;
 
@@ -45,6 +46,9 @@ public class PlayerController : MonoBehaviour
     float xRotation;
     float yRotation;
 
+    //animation
+    Animator lArmAnimator;
+
     void Start()
     {
         Cursor.visible = false;
@@ -54,6 +58,9 @@ public class PlayerController : MonoBehaviour
         rb.freezeRotation = true;
 
         orientation = targetFollow.transform;
+
+        //animation
+        lArmAnimator = lArmPivot.GetComponent<Animator>();
     }
 
     void Update()
@@ -68,6 +75,8 @@ public class PlayerController : MonoBehaviour
 
         //rotate the camera
         RotateCamera();
+
+        AnimateParts();
     }
 
     private void FixedUpdate() {
@@ -138,5 +147,11 @@ public class PlayerController : MonoBehaviour
         //limit the magnitude of speed
         Vector3 limitedVelocity = flatVelocity.normalized * speed;
         rb.linearVelocity = new Vector3(limitedVelocity.x, rb.linearVelocity.y, limitedVelocity.z);
+    }
+
+    void AnimateParts() {
+
+        //walking animation
+        lArmAnimator.SetFloat("input", Mathf.Abs(horizontalInput) + Mathf.Abs(verticalInput));
     }
 }
