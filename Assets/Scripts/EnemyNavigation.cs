@@ -47,6 +47,10 @@ public class EnemyNavigation : MonoBehaviour
         
     }
 
+    public void Die() {
+        agent.destination = transform.position;
+    }
+
     IEnumerator WanderCooldown() {
         yield return new WaitForSeconds(wanderTime);
         finishedWander = true;

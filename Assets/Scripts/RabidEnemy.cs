@@ -41,15 +41,16 @@ public class RabidEnemy : MonoBehaviour
     }
 
     public void Die() {
-        StartCoroutine(WaitForDeath());
-        GetComponent<Animator>().SetTrigger("die");
         rb.useGravity = false;
         gameObject.GetComponent<Collider>().enabled = false;
-        gameObject.GetComponent<EnemyNavigation>().enabled = false;   
+        gameObject.GetComponent<EnemyNavigation>().Die();
+        gameObject.GetComponent<EnemyNavigation>().enabled = false;
+        GetComponent<Animator>().SetTrigger("die");
+        StartCoroutine(WaitForDeath());
     }
 
     IEnumerator WaitForDeath() {
-        yield return new WaitForSeconds(26f);
+        yield return new WaitForSeconds(3f);
         Destroy(gameObject);
     }
 }
