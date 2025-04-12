@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Drawing;
 using UnityEngine;
 
@@ -35,7 +36,20 @@ public class RabidEnemy : MonoBehaviour
 
             //make collider a trigger
             //delete model
-            Destroy(gameObject);
+            Die();
         }
+    }
+
+    public void Die() {
+        StartCoroutine(WaitForDeath());
+        GetComponent<Animator>().SetTrigger("die");
+        rb.useGravity = false;
+        gameObject.GetComponent<Collider>().enabled = false;
+        gameObject.GetComponent<EnemyNavigation>().enabled = false;   
+    }
+
+    IEnumerator WaitForDeath() {
+        yield return new WaitForSeconds(26f);
+        Destroy(gameObject);
     }
 }
