@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class PlayerShoot : MonoBehaviour
@@ -7,6 +8,9 @@ public class PlayerShoot : MonoBehaviour
 
     [Header("Shooting Properties")]
     public float range = 10f;
+    public float waitTime = 1.0f;
+
+    bool isAbleToShoot = true;
 
     [Header("Raycast Angle")]
     public Transform followTarget;
@@ -17,16 +21,25 @@ public class PlayerShoot : MonoBehaviour
     public Vector3 originCorrection = Vector3.zero;
     public Vector3 endCorrection = Vector3.zero;
 
+    [Header("Animation")]
+    public Animator rArmPivot;
+    public AudioSource playerSpeaker;
+
     private void Update() {
         if (Input.GetMouseButtonDown(0)) {
-            Shoot();
+            if (isAbleToShoot) {
+                Shoot();
+            }
         }
     }
 
     void Shoot() {
-        
+
         //decrement ammo (I reccomend storing ammo in gamemanager)
         //start reload time
+
+        isAbleToShoot = false;
+        StartCoroutine(resetShootAbility());
 
         //ray = new Ray(transform.position, transform.forward); //from this object, forward
         ray = new Ray(rayOrigin.position + originCorrection, followTarget.transform.forward + endCorrection); //from this object, forward
@@ -43,5 +56,16 @@ public class PlayerShoot : MonoBehaviour
                 hitData.collider.GetComponent<RabidEnemy>().shotByPlayer();
             }
         }
+
+        //animation
+        rArmPivot.SetTrigger("shoot");
+
+        //sound
+        playerSpeaker.Play();
+    }
+
+    IEnumerator resetShootAbility() {
+        yield return new WaitForSeconds(waitTime);
+        isAbleToShoot = true;
     }
 }
