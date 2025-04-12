@@ -7,6 +7,7 @@ public class PlayerShoot : MonoBehaviour
 
     [Header("Shooting Properties")]
     public float range = 10f;
+    public float waitTime = 1.0f;
 
     [Header("Raycast Angle")]
     public Transform followTarget;
@@ -16,6 +17,10 @@ public class PlayerShoot : MonoBehaviour
     public GameObject rayFix;
     public Vector3 originCorrection = Vector3.zero;
     public Vector3 endCorrection = Vector3.zero;
+
+    [Header("Animation")]
+    public Animator rArmPivot;
+    public AudioSource playerSpeaker;
 
     private void Update() {
         if (Input.GetMouseButtonDown(0)) {
@@ -43,5 +48,11 @@ public class PlayerShoot : MonoBehaviour
                 hitData.collider.GetComponent<RabidEnemy>().shotByPlayer();
             }
         }
+
+        //animation
+        rArmPivot.SetTrigger("shoot");
+
+        //sound
+        playerSpeaker.Play();
     }
 }
