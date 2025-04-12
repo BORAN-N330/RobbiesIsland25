@@ -37,6 +37,8 @@ public class RabidEnemy : MonoBehaviour
             //make collider a trigger
             //delete model
             Die();
+        } else {
+            GetComponent<AudioSource>().Play();
         }
     }
 
