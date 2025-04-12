@@ -24,6 +24,7 @@ public class PlayerShoot : MonoBehaviour
     [Header("Animation")]
     public Animator rArmPivot;
     public AudioSource playerSpeaker;
+    public ParticleSystem smoke;
 
     //ammo system
     AmmoManager ammoManager;
@@ -71,6 +72,9 @@ public class PlayerShoot : MonoBehaviour
 
         //sound
         playerSpeaker.Play();
+
+        //smoke particle
+        smoke.Play();
     }
 
     IEnumerator resetShootAbility() {
