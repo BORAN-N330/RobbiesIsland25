@@ -25,9 +25,16 @@ public class PlayerShoot : MonoBehaviour
     public Animator rArmPivot;
     public AudioSource playerSpeaker;
 
+    //ammo system
+    AmmoManager ammoManager;
+
+    private void Start() {
+        ammoManager = GetComponent<AmmoManager>();
+    }
+
     private void Update() {
         if (Input.GetMouseButtonDown(0)) {
-            if (isAbleToShoot) {
+            if (isAbleToShoot && ammoManager.hasAmmo()) {
                 Shoot();
             }
         }
@@ -35,7 +42,9 @@ public class PlayerShoot : MonoBehaviour
 
     void Shoot() {
 
-        //decrement ammo (I reccomend storing ammo in gamemanager)
+        //decrement ammo
+        ammoManager.ReduceAmmo();
+
         //start reload time
 
         isAbleToShoot = false;

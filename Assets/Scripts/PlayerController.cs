@@ -49,6 +49,9 @@ public class PlayerController : MonoBehaviour
     //animation
     Animator lArmAnimator;
 
+    //ammo
+    AmmoManager ammoManager;
+
     void Start()
     {
         Cursor.visible = false;
@@ -61,6 +64,8 @@ public class PlayerController : MonoBehaviour
 
         //animation
         lArmAnimator = lArmPivot.GetComponent<Animator>();
+
+        ammoManager = GetComponent<AmmoManager>();
     }
 
     void Update()
@@ -153,5 +158,17 @@ public class PlayerController : MonoBehaviour
 
         //walking animation
         lArmAnimator.SetFloat("input", Mathf.Abs(horizontalInput) + Mathf.Abs(verticalInput));
+    }
+
+    private void OnCollisionEnter(Collision collision) {
+        //check if enemy
+
+        //check if ammo crate
+        if (collision.gameObject.tag == "AmmoCrate") {
+            ammoManager.ReloadAmmo();
+
+            //remove create
+            Destroy(collision.gameObject);
+        }
     }
 }
