@@ -31,6 +31,7 @@ public class AmmoManager : MonoBehaviour
 
     public void ReloadAmmo() {
         currentAmmo = maxAmmo;
+        UpdateAmmoText();
     }
 
     public bool hasAmmo() {
