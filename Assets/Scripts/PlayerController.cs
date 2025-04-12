@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
     [Header("Movement Settings")]
     public float speed = 100f;
     public float sprintModifier = 50f;
+    public float fallingGravity = -1f;
 
     //input
     float horizontalInput;
@@ -78,6 +79,14 @@ public class PlayerController : MonoBehaviour
 
         //no delta time with fixed update
         rb.AddForce(moveDirection.normalized * (speed + (sprinting * sprintModifier)), ForceMode.Force);
+        
+        if (!grounded) {
+            //rb.AddForce(moveDirection.normalized * (1/4) * (speed + (sprinting * sprintModifier)), ForceMode.Force);
+
+            //gravity
+            float gravity = rb.linearVelocity.y + fallingGravity;
+            rb.linearVelocity = new Vector3(rb.linearVelocity.x, gravity, rb.linearVelocity.z);
+        }
     }
 
     void KeyboardInput() {
