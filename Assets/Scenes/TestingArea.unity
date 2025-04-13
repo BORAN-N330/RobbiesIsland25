@@ -643,9 +643,9 @@ GameObject:
   - component: {fileID: 500045454}
   - component: {fileID: 500045453}
   - component: {fileID: 500045452}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Obstavle (1)
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -751,9 +751,9 @@ GameObject:
   - component: {fileID: 603417520}
   - component: {fileID: 603417519}
   - component: {fileID: 603417518}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Obstavle
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -918,6 +918,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 183b9082c52f6734da54027c5379fa2d, type: 3}
       propertyPath: m_Name
       value: house1_model
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 183b9082c52f6734da54027c5379fa2d, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 183b9082c52f6734da54027c5379fa2d, type: 3}
+      propertyPath: m_TagString
+      value: Shootable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1293,6 +1301,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: house2_model
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 65f394c34ad3e3843a6ec3f3624b6848, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 65f394c34ad3e3843a6ec3f3624b6848, type: 3}
+      propertyPath: m_TagString
+      value: Shootable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1492,7 +1508,7 @@ GameObject:
   - component: {fileID: 1165630208}
   m_Layer: 7
   m_Name: Floor
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1654,6 +1670,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: house3_model
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 485671fb379d3a74c9e79067e32d0c94, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 485671fb379d3a74c9e79067e32d0c94, type: 3}
+      propertyPath: m_TagString
+      value: Shootable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1671,9 +1695,9 @@ GameObject:
   - component: {fileID: 1358418228}
   - component: {fileID: 1358418227}
   - component: {fileID: 1358418226}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Obstavle (2)
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1991,7 +2015,7 @@ GameObject:
   - component: {fileID: 1666979811}
   m_Layer: 7
   m_Name: Terrain
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -2371,6 +2395,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3572806583882783629, guid: 147fa2fa6c1ee32439b269b2f0bcd167, type: 3}
+      propertyPath: bullethole
+      value: 
+      objectReference: {fileID: 6460875797890086925, guid: dee800c9a0a6e6041bbe4ff9b2446138, type: 3}
     - target: {fileID: 3708743322167303607, guid: 147fa2fa6c1ee32439b269b2f0bcd167, type: 3}
       propertyPath: slider
       value: 
