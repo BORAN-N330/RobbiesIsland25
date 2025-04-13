@@ -26,6 +26,9 @@ public class PlayerShoot : MonoBehaviour
     public AudioSource playerSpeaker;
     public ParticleSystem smoke;
 
+    [Header("Bullets")]
+    public GameObject bullethole;
+
     //ammo system
     AmmoManager ammoManager;
 
@@ -64,6 +67,9 @@ public class PlayerShoot : MonoBehaviour
                 Debug.Log("Hit Enemy");
 
                 hitData.collider.GetComponent<RabidEnemy>().shotByPlayer();
+
+            } else if (hitData.collider.tag == "Shootable") {
+                Instantiate(bullethole, hitData.point + (hitData.normal * 0.01f), Quaternion.FromToRotation(Vector3.up, hitData.normal));
             }
         }
 
