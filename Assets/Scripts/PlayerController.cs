@@ -52,6 +52,9 @@ public class PlayerController : MonoBehaviour
     //ammo
     AmmoManager ammoManager;
 
+    //health
+    HealthSystem healthSystem;
+
     void Start()
     {
         Cursor.visible = false;
@@ -66,6 +69,7 @@ public class PlayerController : MonoBehaviour
         lArmAnimator = lArmPivot.GetComponent<Animator>();
 
         ammoManager = GetComponent<AmmoManager>();
+        healthSystem = GetComponent<HealthSystem>();
     }
 
     void Update()
@@ -162,6 +166,9 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision) {
         //check if enemy
+        if(collision.gameObject.tag == "Enemy") {
+            healthSystem.Damage(1);
+        }
 
         //check if ammo crate
         if (collision.gameObject.tag == "AmmoCrate") {
