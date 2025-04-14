@@ -72,6 +72,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 183b9082c52f6734da54027c5379fa2d, type: 3}
+      propertyPath: m_TagString
+      value: Shootable
+      objectReference: {fileID: 0}
     - target: {fileID: 7124682117990857294, guid: 183b9082c52f6734da54027c5379fa2d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
