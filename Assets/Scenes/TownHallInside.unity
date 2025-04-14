@@ -171,6 +171,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: chair_Model (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1840230045104124826, guid: da2e76fe32cde81459b4ef43a3b87569, type: 3}
+      propertyPath: m_TagString
+      value: Shootable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -232,6 +236,10 @@ PrefabInstance:
     - target: {fileID: 1840230045104124826, guid: da2e76fe32cde81459b4ef43a3b87569, type: 3}
       propertyPath: m_Name
       value: chair_Model (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1840230045104124826, guid: da2e76fe32cde81459b4ef43a3b87569, type: 3}
+      propertyPath: m_TagString
+      value: Shootable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -357,6 +365,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: chair_Model (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1840230045104124826, guid: da2e76fe32cde81459b4ef43a3b87569, type: 3}
+      propertyPath: m_TagString
+      value: Shootable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -418,6 +430,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3bede2354ac49804194afa94be77ae86, type: 3}
       propertyPath: m_Name
       value: gateModel (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3bede2354ac49804194afa94be77ae86, type: 3}
+      propertyPath: m_TagString
+      value: Shootable
       objectReference: {fileID: 0}
     - target: {fileID: 1849179635957230416, guid: 3bede2354ac49804194afa94be77ae86, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -527,6 +543,10 @@ PrefabInstance:
     - target: {fileID: 1840230045104124826, guid: da2e76fe32cde81459b4ef43a3b87569, type: 3}
       propertyPath: m_Name
       value: chair_Model (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1840230045104124826, guid: da2e76fe32cde81459b4ef43a3b87569, type: 3}
+      propertyPath: m_TagString
+      value: Shootable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -676,6 +696,10 @@ PrefabInstance:
     - target: {fileID: 945873502490310631, guid: 4f2385a5382db5b469d6690829db9bd4, type: 3}
       propertyPath: m_Name
       value: column_Model (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 945873502490310631, guid: 4f2385a5382db5b469d6690829db9bd4, type: 3}
+      propertyPath: m_TagString
+      value: Shootable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -915,7 +939,7 @@ GameObject:
   - component: {fileID: 143754910}
   m_Layer: 0
   m_Name: Cube (7)
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1023,7 +1047,7 @@ GameObject:
   - component: {fileID: 206717527}
   m_Layer: 0
   m_Name: Cube (7)
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1131,7 +1155,7 @@ GameObject:
   - component: {fileID: 229871514}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1399,6 +1423,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: metalDeskModel (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2455694284431424065, guid: 6907a44fa4274934a8277b391533dc08, type: 3}
+      propertyPath: m_TagString
+      value: Shootable
+      objectReference: {fileID: 0}
     - target: {fileID: 2981295388713918715, guid: 6907a44fa4274934a8277b391533dc08, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.7
@@ -1474,7 +1502,7 @@ GameObject:
   - component: {fileID: 287084524}
   m_Layer: 0
   m_Name: Cube (4)
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1587,7 +1615,7 @@ GameObject:
   - component: {fileID: 320302260}
   m_Layer: 0
   m_Name: Cube (5)
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1836,7 +1864,7 @@ GameObject:
   - component: {fileID: 347375271}
   m_Layer: 0
   m_Name: Cube (3)
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1982,6 +2010,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: chair_Model (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1840230045104124826, guid: da2e76fe32cde81459b4ef43a3b87569, type: 3}
+      propertyPath: m_TagString
+      value: Shootable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2044,6 +2076,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: chair_Model (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 1840230045104124826, guid: da2e76fe32cde81459b4ef43a3b87569, type: 3}
+      propertyPath: m_TagString
+      value: Shootable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2068,7 +2104,7 @@ GameObject:
   - component: {fileID: 401248229}
   m_Layer: 0
   m_Name: Cube (5)
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2241,7 +2277,7 @@ GameObject:
   - component: {fileID: 448920175}
   m_Layer: 0
   m_Name: Cube (4)
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2411,7 +2447,7 @@ GameObject:
   - component: {fileID: 519791192}
   m_Layer: 0
   m_Name: Cube (2)
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2524,7 +2560,7 @@ GameObject:
   - component: {fileID: 595483391}
   m_Layer: 0
   m_Name: Cube (5)
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2633,7 +2669,7 @@ GameObject:
   - component: {fileID: 619983983}
   m_Layer: 7
   m_Name: MayorsFloor
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2796,7 +2832,7 @@ GameObject:
   - component: {fileID: 669939057}
   m_Layer: 0
   m_Name: Cube (3)
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2901,6 +2937,10 @@ PrefabInstance:
     - target: {fileID: 2455694284431424065, guid: 6907a44fa4274934a8277b391533dc08, type: 3}
       propertyPath: m_Name
       value: metalDeskModel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2455694284431424065, guid: 6907a44fa4274934a8277b391533dc08, type: 3}
+      propertyPath: m_TagString
+      value: Shootable
       objectReference: {fileID: 0}
     - target: {fileID: 2981295388713918715, guid: 6907a44fa4274934a8277b391533dc08, type: 3}
       propertyPath: m_LocalScale.x
@@ -3186,6 +3226,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: chair_Model
       objectReference: {fileID: 0}
+    - target: {fileID: 1840230045104124826, guid: da2e76fe32cde81459b4ef43a3b87569, type: 3}
+      propertyPath: m_TagString
+      value: Shootable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3205,7 +3249,7 @@ GameObject:
   - component: {fileID: 770137529}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3313,7 +3357,7 @@ GameObject:
   - component: {fileID: 772533180}
   m_Layer: 0
   m_Name: Cube (11)
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3458,6 +3502,10 @@ PrefabInstance:
     - target: {fileID: 1840230045104124826, guid: da2e76fe32cde81459b4ef43a3b87569, type: 3}
       propertyPath: m_Name
       value: chair_Model (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1840230045104124826, guid: da2e76fe32cde81459b4ef43a3b87569, type: 3}
+      propertyPath: m_TagString
+      value: Shootable
       objectReference: {fileID: 0}
     - target: {fileID: 4665828249044949233, guid: da2e76fe32cde81459b4ef43a3b87569, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3608,7 +3656,7 @@ MonoBehaviour:
   priority: 0
   blendDistance: 0
   weight: 1
-  sharedProfile: {fileID: 11400000, guid: 10fc4df2da32a41aaa32d77bc913491c, type: 2}
+  sharedProfile: {fileID: 11400000, guid: 6a59a97fa6a69b146a6f0d37d750e1c6, type: 2}
 --- !u!4 &832575519
 Transform:
   m_ObjectHideFlags: 0
@@ -3676,6 +3724,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: chair_Model (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1840230045104124826, guid: da2e76fe32cde81459b4ef43a3b87569, type: 3}
+      propertyPath: m_TagString
+      value: Shootable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3705,7 +3757,7 @@ GameObject:
   - component: {fileID: 921338856}
   m_Layer: 0
   m_Name: Cube (3)
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3813,7 +3865,7 @@ GameObject:
   - component: {fileID: 960894606}
   m_Layer: 0
   m_Name: Cube (8)
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3958,7 +4010,7 @@ GameObject:
   - component: {fileID: 985901955}
   m_Layer: 0
   m_Name: Cube (2)
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4115,6 +4167,10 @@ PrefabInstance:
     - target: {fileID: 945873502490310631, guid: 4f2385a5382db5b469d6690829db9bd4, type: 3}
       propertyPath: m_Name
       value: column_Model (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 945873502490310631, guid: 4f2385a5382db5b469d6690829db9bd4, type: 3}
+      propertyPath: m_TagString
+      value: Shootable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4277,6 +4333,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: chair_Model (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1840230045104124826, guid: da2e76fe32cde81459b4ef43a3b87569, type: 3}
+      propertyPath: m_TagString
+      value: Shootable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4301,7 +4361,7 @@ GameObject:
   - component: {fileID: 1154414300}
   m_Layer: 0
   m_Name: Ceiling
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4409,7 +4469,7 @@ GameObject:
   - component: {fileID: 1171031381}
   m_Layer: 0
   m_Name: Cube (4)
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4517,7 +4577,7 @@ GameObject:
   - component: {fileID: 1190665479}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4750,6 +4810,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: column_Model (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 945873502490310631, guid: 4f2385a5382db5b469d6690829db9bd4, type: 3}
+      propertyPath: m_TagString
+      value: Shootable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4968,7 +5032,7 @@ GameObject:
   - component: {fileID: 1318790998}
   m_Layer: 0
   m_Name: Cube (2)
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5133,7 +5197,7 @@ GameObject:
   - component: {fileID: 1392038663}
   m_Layer: 0
   m_Name: Cube (7)
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5279,6 +5343,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: gateModel (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3bede2354ac49804194afa94be77ae86, type: 3}
+      propertyPath: m_TagString
+      value: Shootable
+      objectReference: {fileID: 0}
     - target: {fileID: 1849179635957230416, guid: 3bede2354ac49804194afa94be77ae86, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -5311,7 +5379,7 @@ GameObject:
   - component: {fileID: 1420863055}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5417,6 +5485,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: metalDeskModel (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2455694284431424065, guid: 6907a44fa4274934a8277b391533dc08, type: 3}
+      propertyPath: m_TagString
+      value: Shootable
+      objectReference: {fileID: 0}
     - target: {fileID: 2981295388713918715, guid: 6907a44fa4274934a8277b391533dc08, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.7
@@ -5492,7 +5564,7 @@ GameObject:
   - component: {fileID: 1502735270}
   m_Layer: 0
   m_Name: Cube (6)
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5600,7 +5672,7 @@ GameObject:
   - component: {fileID: 1535335569}
   m_Layer: 0
   m_Name: Cube (10)
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5745,6 +5817,10 @@ PrefabInstance:
     - target: {fileID: 1840230045104124826, guid: da2e76fe32cde81459b4ef43a3b87569, type: 3}
       propertyPath: m_Name
       value: chair_Model (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1840230045104124826, guid: da2e76fe32cde81459b4ef43a3b87569, type: 3}
+      propertyPath: m_TagString
+      value: Shootable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5938,6 +6014,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: column_Model
       objectReference: {fileID: 0}
+    - target: {fileID: 945873502490310631, guid: 4f2385a5382db5b469d6690829db9bd4, type: 3}
+      propertyPath: m_TagString
+      value: Shootable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6024,6 +6104,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: chair_Model (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 1840230045104124826, guid: da2e76fe32cde81459b4ef43a3b87569, type: 3}
+      propertyPath: m_TagString
+      value: Shootable
+      objectReference: {fileID: 0}
     - target: {fileID: 4665828249044949233, guid: da2e76fe32cde81459b4ef43a3b87569, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.50008726
@@ -6058,6 +6142,135 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1351677839025301792, guid: da2e76fe32cde81459b4ef43a3b87569, type: 3}
   m_PrefabInstance: {fileID: 1585615130}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1597715469
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1597715471}
+  - component: {fileID: 1597715470}
+  m_Layer: 0
+  m_Name: '''The Army of Minotaur'' by @Makai-symphony    Fighting Music (No Copyright)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1597715470
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597715469}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 8dc6d3ac67ce80f46a6cf0b631efed0f, type: 3}
+  m_Resource: {fileID: 8300000, guid: 8dc6d3ac67ce80f46a6cf0b631efed0f, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1597715471
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597715469}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1655392415
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6170,7 +6383,7 @@ GameObject:
   - component: {fileID: 1813127537}
   m_Layer: 7
   m_Name: EndingFloor
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6279,7 +6492,7 @@ GameObject:
   - component: {fileID: 1824260915}
   m_Layer: 0
   m_Name: Cube (6)
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6387,7 +6600,7 @@ GameObject:
   - component: {fileID: 1868307466}
   m_Layer: 0
   m_Name: Cube (9)
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6691,7 +6904,7 @@ GameObject:
   - component: {fileID: 1926174716}
   m_Layer: 7
   m_Name: MainFloor
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6797,6 +7010,10 @@ PrefabInstance:
     - target: {fileID: 2455694284431424065, guid: 6907a44fa4274934a8277b391533dc08, type: 3}
       propertyPath: m_Name
       value: metalDeskModel (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2455694284431424065, guid: 6907a44fa4274934a8277b391533dc08, type: 3}
+      propertyPath: m_TagString
+      value: Shootable
       objectReference: {fileID: 0}
     - target: {fileID: 2981295388713918715, guid: 6907a44fa4274934a8277b391533dc08, type: 3}
       propertyPath: m_LocalScale.x
@@ -6937,7 +7154,7 @@ GameObject:
   - component: {fileID: 1983720723}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7051,6 +7268,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: metalDeskModel (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2455694284431424065, guid: 6907a44fa4274934a8277b391533dc08, type: 3}
+      propertyPath: m_TagString
+      value: Shootable
+      objectReference: {fileID: 0}
     - target: {fileID: 2981295388713918715, guid: 6907a44fa4274934a8277b391533dc08, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.7
@@ -7126,7 +7347,7 @@ GameObject:
   - component: {fileID: 2031468207}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7272,6 +7493,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: chair_Model (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1840230045104124826, guid: da2e76fe32cde81459b4ef43a3b87569, type: 3}
+      propertyPath: m_TagString
+      value: Shootable
+      objectReference: {fileID: 0}
     - target: {fileID: 4665828249044949233, guid: da2e76fe32cde81459b4ef43a3b87569, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -7324,7 +7549,7 @@ GameObject:
   - component: {fileID: 2059860705}
   m_Layer: 0
   m_Name: Cube (6)
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7521,7 +7746,7 @@ GameObject:
   - component: {fileID: 2081804892}
   m_Layer: 0
   m_Name: Cube (8)
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7634,6 +7859,10 @@ PrefabInstance:
     - target: {fileID: 2455694284431424065, guid: 6907a44fa4274934a8277b391533dc08, type: 3}
       propertyPath: m_Name
       value: metalDeskModel (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2455694284431424065, guid: 6907a44fa4274934a8277b391533dc08, type: 3}
+      propertyPath: m_TagString
+      value: Shootable
       objectReference: {fileID: 0}
     - target: {fileID: 2981295388713918715, guid: 6907a44fa4274934a8277b391533dc08, type: 3}
       propertyPath: m_LocalScale.x
@@ -7937,7 +8166,7 @@ GameObject:
   - component: {fileID: 919132148685330873}
   m_Layer: 0
   m_Name: gateModel
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8272,3 +8501,4 @@ SceneRoots:
   - {fileID: 405523505}
   - {fileID: 2114327409}
   - {fileID: 814084098}
+  - {fileID: 1597715471}
