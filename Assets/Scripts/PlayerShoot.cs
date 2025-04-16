@@ -71,6 +71,8 @@ public class PlayerShoot : MonoBehaviour
 
             } else if (hitData.collider.tag == "NPC") {
                 hitData.collider.gameObject.GetComponent<NPCDialogue>().Speak();
+            } else {
+                isShooting = true;
             }
         }
 
