@@ -46,13 +46,7 @@ public class PlayerShoot : MonoBehaviour
 
     void Shoot() {
 
-        //decrement ammo
-        ammoManager.ReduceAmmo();
-
-        //start reload time
-
-        isAbleToShoot = false;
-        StartCoroutine(resetShootAbility());
+        bool isShooting = false;
 
         //ray = new Ray(transform.position, transform.forward); //from this object, forward
         ray = new Ray(rayOrigin.position + originCorrection, followTarget.transform.forward + endCorrection); //from this object, forward
@@ -68,19 +62,38 @@ public class PlayerShoot : MonoBehaviour
 
                 hitData.collider.GetComponent<RabidEnemy>().shotByPlayer();
 
+                isShooting = true;
+
             } else if (hitData.collider.tag == "Shootable") {
                 Instantiate(bullethole, hitData.point + (hitData.normal * 0.01f), Quaternion.FromToRotation(Vector3.up, hitData.normal));
+
+                isShooting = true;
+
+            } else if (hitData.collider.tag == "NPC") {
+                hitData.collider.gameObject.GetComponent<NPCDialogue>().Speak();
             }
         }
 
-        //animation
-        rArmPivot.SetTrigger("shoot");
+        if (isShooting) {
+            isShooting = false;
 
-        //sound
-        playerSpeaker.Play();
+            //decrement ammo
+            ammoManager.ReduceAmmo();
 
-        //smoke particle
-        smoke.Play();
+            //start reload time
+
+            isAbleToShoot = false;
+            StartCoroutine(resetShootAbility());
+
+            //animation
+            rArmPivot.SetTrigger("shoot");
+
+            //sound
+            playerSpeaker.Play();
+
+            //smoke particle
+            smoke.Play();
+        }
     }
 
     IEnumerator resetShootAbility() {
