@@ -5310,9 +5310,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8546291239321990197}
   - component: {fileID: 440117538614604033}
+  - component: {fileID: 7243293617015173319}
   - component: {fileID: 7928042183433855477}
   - component: {fileID: 2397820510086839004}
-  - component: {fileID: 7243293617015173319}
   - component: {fileID: 1257343976407050887}
   - component: {fileID: 2034059034640313250}
   - component: {fileID: 5026527303153134046}
@@ -5356,6 +5356,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   doorObject: {fileID: 0}
   animatorTrigger: OpenDoor
+  enemyName: Rayb-oss
+  hpBar: {fileID: 3022451238834904542, guid: e6e7db90873f7d64ab28787ac1bd8771, type: 3}
+  canvas: {fileID: 0}
+--- !u!114 &7243293617015173319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6735174762897346293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 415d646a9f05fd84989ff9d950f09289, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 5
+  knockBack: 15
+  health: 0
 --- !u!136 &7928042183433855477
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5406,20 +5424,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 0
---- !u!114 &7243293617015173319
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6735174762897346293}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 415d646a9f05fd84989ff9d950f09289, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 2
-  knockBack: 15
 --- !u!114 &1257343976407050887
 MonoBehaviour:
   m_ObjectHideFlags: 0
