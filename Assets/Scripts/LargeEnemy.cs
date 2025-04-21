@@ -40,7 +40,6 @@ public class LargeEnemy : MonoBehaviour
     private void Update() {
         hpBar.maxValue = enemyScript.maxHealth;
 
-        Debug.Log(enemyScript.health);
         hpBarIn.value = (int)enemyScript.health;
 
         //spit object
@@ -51,8 +50,10 @@ public class LargeEnemy : MonoBehaviour
             //make spit sound
             //instatiate spit object
 
-            GameObject inSpitProj = Instantiate(spitProjectile, originPoint.TransformPoint(Vector3.zero));
-            inSpitProj.transform.position = originPoint.position;
+            GameObject inSpitProj = Instantiate(spitProjectile, originPoint.TransformPoint(originPoint.position), Quaternion.identity);
+            inSpitProj.transform.position = transform.TransformPoint(originPoint.position);
+
+            Debug.Log("Spitting");
 
             //set to target
             inSpitProj.GetComponent<SpitProjectile>().SetTarget(player.position, projectileSpeed);

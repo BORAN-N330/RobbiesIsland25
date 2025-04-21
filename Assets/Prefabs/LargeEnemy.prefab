@@ -5392,7 +5392,7 @@ MonoBehaviour:
   hpBar: {fileID: 3022451238834904542, guid: e6e7db90873f7d64ab28787ac1bd8771, type: 3}
   canvas: {fileID: 0}
   spitProjectile: {fileID: 6515056672066754592, guid: d6cb3cd6e5426734e9f570b001bb8e1c, type: 3}
-  origin: {fileID: 8959262953930913770}
+  originPoint: {fileID: 8959262953930913770}
   player: {fileID: 0}
   projectileSpeed: 0.1
   spitCooldownSec: 3
