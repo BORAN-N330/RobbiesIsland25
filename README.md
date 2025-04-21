@@ -2,7 +2,7 @@
 ## Int. Game Design & Development Spring 2025
 ### Nicholas Norman, Annie Foster, Otto Pham, Riley Collins, Brett Beasley
 
-ITCH.IO Page: [Rabies Island!]()
+ITCH.IO Page: [Rabies Island!](https://downstren.itch.io/rabies-island)
 
 ## 1. How to open your project
 
