@@ -16,8 +16,6 @@ public class NPCDialogue : MonoBehaviour
 
     public void Speak() {
 
-        Debug.Log(currentLine);
-
         if (currentLine >= lines.Length) {
             //reset
             currentLine = 0;

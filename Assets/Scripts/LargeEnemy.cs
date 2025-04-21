@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using System.Collections;
 
 public class LargeEnemy : MonoBehaviour
 {
@@ -16,13 +17,20 @@ public class LargeEnemy : MonoBehaviour
     TMP_Text nameTag;
     Slider hpBarIn;
 
+    [Header("Spit")]
+    public GameObject spitProjectile;
+    public Transform originPoint;
+    public Transform player;
+    public float projectileSpeed = 0.1f;
+    bool isSpitting;
+    public float spitCooldownSec = 3f;
+
     RabidEnemy enemyScript;
 
     private void Start() {
 
         enemyScript = GetComponent<RabidEnemy>();
 
-        Debug.Log("Adding stuff");
         hpBarIn = Instantiate(hpBar, canvas.transform);
         nameTag = hpBarIn.transform.GetChild(0).GetComponent<TMP_Text>();
 
@@ -34,6 +42,24 @@ public class LargeEnemy : MonoBehaviour
 
         Debug.Log(enemyScript.health);
         hpBarIn.value = (int)enemyScript.health;
+
+        //spit object
+        
+        if (isSpitting == false) {
+            isSpitting = true;
+
+            //make spit sound
+            //instatiate spit object
+
+            GameObject inSpitProj = Instantiate(spitProjectile, originPoint.TransformPoint(Vector3.zero));
+            inSpitProj.transform.position = originPoint.position;
+
+            //set to target
+            inSpitProj.GetComponent<SpitProjectile>().SetTarget(player.position, projectileSpeed);
+            inSpitProj.GetComponent<SpitProjectile>().SetInMotion();
+
+            StartCoroutine(SpitCooldown());
+        }
     }
 
     private void OnDestroy() {
@@ -44,5 +70,10 @@ public class LargeEnemy : MonoBehaviour
         Debug.Log("Death");
 
         Destroy(hpBar);
+    }
+
+    IEnumerator SpitCooldown() {
+        yield return new WaitForSeconds(spitCooldownSec);
+        isSpitting = false;
     }
 }
