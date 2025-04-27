@@ -2214,6 +2214,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7454903083966835004, guid: 147fa2fa6c1ee32439b269b2f0bcd167, type: 3}
   m_PrefabInstance: {fileID: 3993474563490141127}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1901480091374083782
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 659400052595066304, guid: b7bd3fc14c45c1f4fb1df929f6ce0cd2, type: 3}
+      propertyPath: m_Name
+      value: RabidEnemyCat
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062238058145253549, guid: b7bd3fc14c45c1f4fb1df929f6ce0cd2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062238058145253549, guid: b7bd3fc14c45c1f4fb1df929f6ce0cd2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062238058145253549, guid: b7bd3fc14c45c1f4fb1df929f6ce0cd2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -12.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062238058145253549, guid: b7bd3fc14c45c1f4fb1df929f6ce0cd2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062238058145253549, guid: b7bd3fc14c45c1f4fb1df929f6ce0cd2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062238058145253549, guid: b7bd3fc14c45c1f4fb1df929f6ce0cd2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062238058145253549, guid: b7bd3fc14c45c1f4fb1df929f6ce0cd2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062238058145253549, guid: b7bd3fc14c45c1f4fb1df929f6ce0cd2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062238058145253549, guid: b7bd3fc14c45c1f4fb1df929f6ce0cd2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062238058145253549, guid: b7bd3fc14c45c1f4fb1df929f6ce0cd2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b7bd3fc14c45c1f4fb1df929f6ce0cd2, type: 3}
 --- !u!1001 &2214364409108907393
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2358,7 +2415,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3477441446375655466, guid: e7b605aa1edc99141a4c618e42a24a51, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3573174667711452464, guid: e7b605aa1edc99141a4c618e42a24a51, type: 3}
       propertyPath: player
@@ -2409,6 +2466,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7b605aa1edc99141a4c618e42a24a51, type: 3}
+--- !u!1001 &4519189640667048634
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 952153989136647823, guid: ccd5bab85308e4e4fbc654653ac192c7, type: 3}
+      propertyPath: m_Name
+      value: RabidEnemyDog
+      objectReference: {fileID: 0}
+    - target: {fileID: 2331894950899560657, guid: ccd5bab85308e4e4fbc654653ac192c7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 2331894950899560657, guid: ccd5bab85308e4e4fbc654653ac192c7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 2331894950899560657, guid: ccd5bab85308e4e4fbc654653ac192c7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 2331894950899560657, guid: ccd5bab85308e4e4fbc654653ac192c7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2331894950899560657, guid: ccd5bab85308e4e4fbc654653ac192c7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2331894950899560657, guid: ccd5bab85308e4e4fbc654653ac192c7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2331894950899560657, guid: ccd5bab85308e4e4fbc654653ac192c7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2331894950899560657, guid: ccd5bab85308e4e4fbc654653ac192c7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2331894950899560657, guid: ccd5bab85308e4e4fbc654653ac192c7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2331894950899560657, guid: ccd5bab85308e4e4fbc654653ac192c7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ccd5bab85308e4e4fbc654653ac192c7, type: 3}
 --- !u!1001 &4621749184730210884
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2793,6 +2907,8 @@ SceneRoots:
   - {fileID: 1097723612}
   - {fileID: 1935462343}
   - {fileID: 4483520022900258858}
+  - {fileID: 4519189640667048634}
+  - {fileID: 1901480091374083782}
   - {fileID: 470100038}
   - {fileID: 1666979813}
   - {fileID: 8344092509294490992}
