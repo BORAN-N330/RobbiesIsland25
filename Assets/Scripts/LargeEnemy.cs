@@ -17,13 +17,13 @@ public class LargeEnemy : MonoBehaviour
     TMP_Text nameTag;
     Slider hpBarIn;
 
-    [Header("Spit")]
-    public GameObject spitProjectile;
-    public Transform originPoint;
-    public Transform player;
-    public float projectileSpeed = 0.1f;
-    bool isSpitting;
-    public float spitCooldownSec = 3f;
+    //[Header("Spit")]
+    //public GameObject spitProjectile;
+    //public Transform originPoint;
+    //public Transform player;
+    //public float projectileSpeed = 0.1f;
+    //bool isSpitting;
+    //public float spitCooldownSec = 3f;
 
     RabidEnemy enemyScript;
 
@@ -43,24 +43,24 @@ public class LargeEnemy : MonoBehaviour
         hpBarIn.value = (int)enemyScript.health;
 
         //spit object
-        
-        if (isSpitting == false) {
-            isSpitting = true;
+
+        //if (isSpitting == false) {
+        //    isSpitting = true;
 
             //make spit sound
             //instatiate spit object
 
-            GameObject inSpitProj = Instantiate(spitProjectile, originPoint.TransformPoint(originPoint.position), Quaternion.identity);
-            inSpitProj.transform.position = transform.TransformPoint(originPoint.position);
+        //    GameObject inSpitProj = Instantiate(spitProjectile, originPoint.TransformPoint(originPoint.position), Quaternion.identity);
+        //    inSpitProj.transform.position = transform.TransformPoint(originPoint.position);
 
-            Debug.Log("Spitting");
+            //Debug.Log("Spitting");
 
             //set to target
-            inSpitProj.GetComponent<SpitProjectile>().SetTarget(player.position, projectileSpeed);
-            inSpitProj.GetComponent<SpitProjectile>().SetInMotion();
+        //    inSpitProj.GetComponent<SpitProjectile>().SetTarget(player.position, projectileSpeed);
+        //    inSpitProj.GetComponent<SpitProjectile>().SetInMotion();
 
-            StartCoroutine(SpitCooldown());
-        }
+        //    StartCoroutine(SpitCooldown());
+        //}
     }
 
     private void OnDestroy() {
@@ -73,8 +73,8 @@ public class LargeEnemy : MonoBehaviour
         Destroy(hpBar);
     }
 
-    IEnumerator SpitCooldown() {
-        yield return new WaitForSeconds(spitCooldownSec);
-        isSpitting = false;
-    }
+    //IEnumerator SpitCooldown() {
+    //    yield return new WaitForSeconds(spitCooldownSec);
+    //    isSpitting = false;
+    //}
 }

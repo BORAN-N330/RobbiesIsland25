@@ -172,37 +172,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &1451795772837400930
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8959262953930913770}
-  m_Layer: 0
-  m_Name: Origin
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8959262953930913770
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1451795772837400930}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.38, z: 0.30999994}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 8546291239321990197}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3470582187890909319
 GameObject:
   m_ObjectHideFlags: 0
@@ -5369,7 +5338,6 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 8959262953930913770}
   - {fileID: 3330264397709086660}
   - {fileID: 6276364289894717581}
   m_Father: {fileID: 0}
@@ -5391,11 +5359,6 @@ MonoBehaviour:
   enemyName: Rayb-oss
   hpBar: {fileID: 3022451238834904542, guid: e6e7db90873f7d64ab28787ac1bd8771, type: 3}
   canvas: {fileID: 0}
-  spitProjectile: {fileID: 6515056672066754592, guid: d6cb3cd6e5426734e9f570b001bb8e1c, type: 3}
-  originPoint: {fileID: 8959262953930913770}
-  player: {fileID: 0}
-  projectileSpeed: 0.1
-  spitCooldownSec: 3
 --- !u!114 &7243293617015173319
 MonoBehaviour:
   m_ObjectHideFlags: 0
