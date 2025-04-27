@@ -28,8 +28,6 @@ public class HealthSystem : MonoBehaviour
 
         slider.maxValue = health;
         slider.value = health;
-
-        Debug.Log(health.ToString());
     }
 
     private void Update() {

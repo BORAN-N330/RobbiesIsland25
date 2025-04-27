@@ -234,7 +234,7 @@ Transform:
   m_GameObject: {fileID: 239213706}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -14.69, y: 2.49, z: 7.4}
+  m_LocalPosition: {x: 8.66, y: 2.49, z: -10.67}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -328,7 +328,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -14.69, y: 2.49, z: 7.4}
+  m_LocalPosition: {x: 8.66, y: 2.49, z: -10.67}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -954,10 +954,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1097723612}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 397.38, y: 254.64}
-  m_SizeDelta: {x: 263.2469, y: 85.7159}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -318.95264, y: -142.53876}
+  m_SizeDelta: {x: 598.7523, y: 240.78119}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &738897399
 MonoBehaviour:
@@ -1006,7 +1006,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24.1
+  m_fontSize: 72
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1092,10 +1092,10 @@ RectTransform:
   - {fileID: 379572869}
   m_Father: {fileID: 1097723612}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 389.4453, y: 247}
-  m_SizeDelta: {x: 209.1094, y: 20}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -337, y: -164}
+  m_SizeDelta: {x: 475.6172, y: 56.181213}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &908715311
 MonoBehaviour:
@@ -1690,10 +1690,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1097723612}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 355.41, y: -252.67}
-  m_SizeDelta: {x: -710.8254, y: -505.3369}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -356.48236, y: 152.00159}
+  m_SizeDelta: {x: 712.9647, y: 304.00317}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1508411374
 MonoBehaviour:
@@ -1724,8 +1724,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1749,8 +1749,8 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 4
+  m_VerticalAlignment: 1024
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -2281,7 +2281,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2133066886155712535, guid: 147fa2fa6c1ee32439b269b2f0bcd167, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.15
+      value: 10.2
       objectReference: {fileID: 0}
     - target: {fileID: 2133066886155712535, guid: 147fa2fa6c1ee32439b269b2f0bcd167, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2289,7 +2289,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2133066886155712535, guid: 147fa2fa6c1ee32439b269b2f0bcd167, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.4
+      value: -14.67
       objectReference: {fileID: 0}
     - target: {fileID: 2133066886155712535, guid: 147fa2fa6c1ee32439b269b2f0bcd167, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2596,13 +2596,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 440117538614604033, guid: e1a459c7341a42a4ea77d6751f99f542, type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 1097723611}
+    - target: {fileID: 440117538614604033, guid: e1a459c7341a42a4ea77d6751f99f542, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 5680756634781129860}
     - target: {fileID: 6735174762897346293, guid: e1a459c7341a42a4ea77d6751f99f542, type: 3}
       propertyPath: m_Name
       value: LargeEnemy
       objectReference: {fileID: 0}
     - target: {fileID: 6735174762897346293, guid: e1a459c7341a42a4ea77d6751f99f542, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8546291239321990197, guid: e1a459c7341a42a4ea77d6751f99f542, type: 3}
       propertyPath: m_LocalPosition.x

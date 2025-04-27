@@ -6,7 +6,9 @@ public class RabidEnemy : MonoBehaviour
 {
     public float maxHealth = 10f;
     public float knockBack = 5f;
-    float health;
+
+    [HideInInspector]
+    public float health;
 
     Rigidbody rb;
 
