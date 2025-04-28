@@ -16,15 +16,37 @@ Suggested Tools: Unity, Visual Studio Code, Blender.
 ## 3. The names of each group member and what they contributed to the project
 
 ### Nickolas Norman - Programmer:
-* Made Character Movement
+* Scripted Character Movement
+* Scripted Gun Shooting
+* Scripted 3rd Person Camera
+* Scripted Enemy AI Movement
+* Scripted Health System
+* Scripted BulletHole Impact
 ### Brett Beasley - Programmer:
-* Made Ammo Collection
+* Scripted Ammo Collection
 ### Otto Pham - Level Designer:
-* Made Water
+* Created Main Island Layout
+* Implemented Models into the World
+* Created the surrounding Water
 ### Riley Collins - Level Designer:
+* Created Main Island Layout
+* Implemented Models into the World
 * Made the Town Hall
 ### Annie Foster - 3D Modeler:
-* Made a bunch of models
+* Created and Textured a bunch of models:
+  * AmmoCrate
+  * Barrel
+  * Column
+  * Dock
+  * Flower
+  * Gun/Revolver
+  * PoliceBarrier
+  * Weed
+  * BoatRamp
+  * Chair
+  * 3 Different House Models
+  * Boat/Ship
+  * TownHall Building
   
 ## 4. A summary of the project including what it's about and all the mechanics you created
 
@@ -36,12 +58,13 @@ Battle through the rabid town folk to save the mayor!
 
 * Shooting
 * Collecting/Managing Ammo
+* Bossfighting
 
 ## 5. A simple tutorial for how to play the game (including all controls)
 
 ### Tutorial:
 
-www.youtube.com
+www.youtube.com (coming soon)
 
 ### Controls:
 
