@@ -1370,6 +1370,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 440117538614604033, guid: e1a459c7341a42a4ea77d6751f99f542, type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 910735967}
+    - target: {fileID: 440117538614604033, guid: e1a459c7341a42a4ea77d6751f99f542, type: 3}
       propertyPath: doorObject
       value: 
       objectReference: {fileID: 919132148685330873}
@@ -3013,7 +3017,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1779855671885113803, guid: d5f62da7c9223d94f96a3956775d0f13, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -15.22
+      value: -15.61
       objectReference: {fileID: 0}
     - target: {fileID: 1779855671885113803, guid: d5f62da7c9223d94f96a3956775d0f13, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3021,7 +3025,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1779855671885113803, guid: d5f62da7c9223d94f96a3956775d0f13, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -28.09
+      value: -32.82
       objectReference: {fileID: 0}
     - target: {fileID: 1779855671885113803, guid: d5f62da7c9223d94f96a3956775d0f13, type: 3}
       propertyPath: m_LocalRotation.w
