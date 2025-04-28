@@ -22,16 +22,20 @@ Suggested Tools: Unity, Visual Studio Code, Blender.
 * Scripted Enemy AI Movement
 * Scripted Health System
 * Scripted BulletHole Impact
+
 ### Brett Beasley - Programmer:
 * Scripted Ammo Collection
+
 ### Otto Pham - Level Designer:
 * Created Main Island Layout
 * Implemented Models into the World
 * Created the surrounding Water
+
 ### Riley Collins - Level Designer:
 * Created Main Island Layout
 * Implemented Models into the World
-* Made the Town Hall
+* Created the Town Hall Layout
+
 ### Annie Foster - 3D Modeler:
 * Created and Textured a bunch of models:
   * AmmoCrate
@@ -47,6 +51,7 @@ Suggested Tools: Unity, Visual Studio Code, Blender.
   * 3 Different House Models
   * Boat/Ship
   * TownHall Building
+  * Desk Model
   
 ## 4. A summary of the project including what it's about and all the mechanics you created
 
