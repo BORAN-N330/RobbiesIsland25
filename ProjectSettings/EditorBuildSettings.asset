@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/TestingArea.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 180f90aac988242438e0704c507fb59f
+  - enabled: 1
     path: Assets/Scenes/MainIsland.unity
     guid: 87520937331521143b144b142d011ef5
   - enabled: 1
@@ -17,9 +20,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EndGameMenu.unity
     guid: 688efea5d8d942143b536e8bc086657c
-  - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
-    guid: 180f90aac988242438e0704c507fb59f
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
