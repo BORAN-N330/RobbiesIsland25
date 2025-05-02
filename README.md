@@ -69,7 +69,7 @@ Battle through the rabid town folk to save the mayor!
 
 ### Tutorial:
 
-www.youtube.com (coming soon)
+[RabiesIsland Tutorial](https://youtu.be/f2AabVXLRdQ)
 
 ### Controls:
 
